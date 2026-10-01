@@ -35,6 +35,9 @@ h1 {
   font-size: 60px;
 }
 
+img {
+  width: 100%;
+}
 /* 
 
 NAV 
@@ -159,5 +162,12 @@ letter-spacing: 0.1px;
 }
 
 .subheader{
-  font-size: ;
+  font-size: 20px;
+  margin: 16px 0 24px 0;
+  font-weight: 400;
+  color: #64748b;
+}
+
+button {
+  background-color: #c231c2;
 }
