@@ -266,3 +266,12 @@ form {
   padding:0 24px;
   gap:12px
 }
+
+input, textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 500px;
+  border-radius: 6px;
+}
+
