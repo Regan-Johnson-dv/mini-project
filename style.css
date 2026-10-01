@@ -178,7 +178,9 @@ SOCIAL
 */
 
 #about,
-#social {
+#social,
+#contact,
+footer{
   padding:24px ;
   width: 100%;
   max-width: 1200px;
@@ -275,3 +277,30 @@ input, textarea {
   border-radius: 6px;
 }
 
+/* 
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #badcee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1.5px dashed #cbd5e1;
+  padding: 12px 10px;
+  border-radius: 20% 20% 0 0;
+}
+
+.footer__logo {
+  margin-bottom: 8px;
+}
+
+.footer__links {
+  margin-bottom: 16px;
+}
+
+.footer__link {
+  padding:0 16px ;
+}
